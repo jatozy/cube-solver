@@ -42,6 +42,8 @@ jobs:
     name: Build Debug aarch64
     runs-on: ubuntu-latest
     steps:
+      - name: Install aarch64 toolchain
+        run: sudo apt-get install gcc-aarch64-linux-gnu
       - uses: actions/checkout@v4
       - uses: actions-rust-lang/setup-rust-toolchain@v1
       - name: Build
@@ -51,6 +53,8 @@ jobs:
     name: Build Release aarch64
     runs-on: ubuntu-latest
     steps:
+      - name: Install aarch64 toolchain
+        run: sudo apt-get install gcc-aarch64-linux-gnu
       - uses: actions/checkout@v4
       - uses: actions-rust-lang/setup-rust-toolchain@v1
       - name: Build
