@@ -11,8 +11,8 @@ dependencies = [
 
 [[package]]
 name = "cube-solver-hardware"
-version = "0.1.0"
-source = "git+https://github.com/jatozy/cube-solver-hardware.git#b7e5bd9365ed6bba0fd00016dde4e5e52f9b4223"
+version = "0.1.1"
+source = "git+https://github.com/jatozy/cube-solver-hardware.git#63956dd86efdbde53caf053939ba6d9a5161cb7b"
 dependencies = [
  "pca9685-rppal",
  "rppal",
