@@ -5,4 +5,4 @@ edition = "2024"
 rust-version = "1.90"
 
 [dependencies]
-cube-solver-hardware = { git = "https://github.com/jatozy/cube-solver-hardware.git", version="0.1.1"}
+cube-solver-hardware = { git = "https://github.com/jatozy/cube-solver-hardware.git", branch = "feature/use-another-motor"}

@@ -12,7 +12,7 @@ dependencies = [
 [[package]]
 name = "cube-solver-hardware"
 version = "0.1.1"
-source = "git+https://github.com/jatozy/cube-solver-hardware.git#63956dd86efdbde53caf053939ba6d9a5161cb7b"
+source = "git+https://github.com/jatozy/cube-solver-hardware.git?branch=feature%2Fuse-another-motor#1ef9eb8ebddbdc7f68512b6cf0dd89b79936f4d6"
 dependencies = [
  "pca9685-rppal",
  "rppal",
